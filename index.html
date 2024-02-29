@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>Payment Form</h1>
+    <p>Required fields are marked by *</p>
+    
+        <form action="">
+            <div style="min-width: 500px; min-height: 260px; border: 1px solid black; margin:10px;margin-bottom:15px; position: relative;">
+                <span style="position: absolute; top: -10px;left:5px; padding: 0 5px; background-color:white;">Contact Information</span>
+                <div style="margin-left: 10px; margin-bottom:8px;">
+                    <br>
+                    <label>Mx</label>
+                    <br>
+                    <input type="radio" checked>
+                    <br>
+
+                    <label>Mr</label>
+                    <br>
+                    <input type="radio">
+                    <br>
+
+                    <label>Ms</label>
+                    <br>
+                    <input type="radio">
+                    <br>
+
+                    <label>Mrs</label>
+                    <br>
+                    <input type="radio">
+                    <br>
+                    
+                    <label for="">Name</label>
+                    <br>
+                    <input type="text">
+                    <br>
+
+                <label for="">Email</label>
+                <br>
+                <input type="text">
+                <br>
+            </div>
+        </div>
+        <div style="min-width: 500px; height: 150px; border: 1px solid black; margin:10px; position: relative;">
+            <span style="position: absolute; top: -10px;left:5px; padding: 0 5px; background-color:white;">Payment Information</span>
+            <div style="margin-left: 10px; margin-bottom:8px;">
+                <br>
+                <select>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="american-express">American-Express</option>
+                    <option value="discover">Discover</option>
+                </select>
+                <br>
+
+                <label style="margin-top: 10px;">Credit Card Number</label>
+                <br>
+                <input type="tel" placeholder="xxxx xxxx xxxx xxxx">
+                <br>
+
+                <label>Expiration Date</label>
+                <br>
+                <input type="text" id="expiration-date" required>
+
+            </div>
+
+
+
+        </div>
+        <input type="button" value="Submit Payment">
+        </form>
+    
+
+   
+    
+    
+</body>
+</html>
